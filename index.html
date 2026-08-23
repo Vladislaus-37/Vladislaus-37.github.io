@@ -1,0 +1,142 @@
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vladislaus - Главарь всех страниц</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --accent-color: #0066cc;
+            --card-bg: #f9f9f9;
+            --border-color: #eeeeee;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .site-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--text-color);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #222222;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #0055aa;
+            margin-top: 0;
+        }
+        .info-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-left: 5px solid var(--accent-color);
+            border-radius: 4px;
+            margin-top: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        /* Стили для изображений проекта */
+        .info-images {
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .info-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .links-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .link-item {
+            font-weight: bold;
+            color: var(--accent-color);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        .link-item:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="site-title">Vladislaus</div>
+        <nav>
+            <ul>
+                <li><a href="#">Главарь всех страниц</a></link>
+                <li><a href="projects">Проекты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="text-align: center;">Ну что, welcome?</h1>
+
+        <div class="info-card"> 
+
+            <h2>А кто я?</h2>
+            
+            <p>Я <s>дед пихто</s> простой Петербургский школьник, любящий программирование</p>
+        </div>
+
+        <div class="info-card">
+            <p>Ссылки<p>
+            <div class="links-container">
+                <a class="link-item" href="https://github.com/Vladislaus-37" target="_blank">
+                    🔗 GitHub (https://github.com/Vladislaus-37)
+                <\a>
+                <a class="link-item" href="https://t.me/vladislaus37" target="_blank">
+                    🔗 Telegram (https://t.me/vladislaus37)
+                <\a>
+                <a class="link-item" href="https://x.com/Vladislaus72523" target="_blank">
+                    🔗 X (https://x.com/Vladislaus72523)
+                <\a>
+                <a class="link-item" href="https://vk.com/vladislaus_37" target="_blank">
+                    🔗 VK (https://vk.com/vladislaus_37)
+                <\a>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
